@@ -90,7 +90,6 @@ function updateGame() {
   obstacles.forEach((obstacle) => {
     obstacle.x -= 1;
     obstacle.update();
-    console.log(obstacle);
   });
 
   bird.newPos();
@@ -104,5 +103,6 @@ function accf(a) {
 }
 
 function restartGame() {
+  clearInterval(game.interval);
   startGame();
 }
