@@ -1,0 +1,40 @@
+body {
+  background: #1e1e2e;
+  font-family: "Helvetica", "Source Sans Pro", "Arial", sans-serif;
+}
+
+button {
+  color: #cdd6f4;
+  background: #585b70;
+  margin: 0.7em;
+  padding: 0.5em 0.7em;
+  text-transform: uppercase;
+  border: 1px #45475a;
+}
+
+button:hover {
+  background: #6c7086;
+}
+
+button:active {
+  background: #45475a;
+}
+
+#acc {
+  display: none;
+}
+
+#rest {
+  display: none;
+}
+
+canvas {
+  background: #313244;
+  margin: 0.7em;
+  /* border: 1px #11111b solid; */
+}
+
+p {
+  color: #cdd6f4;
+  margin: 0.7em;
+}

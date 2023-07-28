@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>gh</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <button onclick="this.style.display='none'; startGame();">start</button>
+    <br />
+    <button id="acc" onmousedown="accf(-0.2);" onmouseup="accf(0.05);">accelerate</button>
+    <button id="rest" onclick="restartGame();">restart</button>
+    <p>score: <text id="sco">0</text></p>
+  </body>
+</html>
